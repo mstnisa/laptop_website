@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+
+/* Global style start */
+:root{
+    --primary-color:#0A8270;
+    --bg-color:#F6F3EB;
+    --heading-color:#314D4A;
+    --text-color:#646D6C;
+    --white-color:#FFFFFFl
+    --primary-font: 'DM Sans', sans-serif;
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--primary-font);
+}
+::selection{
+    background-color: var(--bg-color);
+    color: var(--white-color);
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+} 
+a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+ul{
+    list-style: none;
+}
+h1{
+    font-size: 7rem;
+    color: var(--heading-color);
+    font-weight: 700;
+}
+h2{
+    font-size: 4.2rem;
+    color: var(--heading-color);
+    font-weight: 700;
+}
+h3{
+    font-size: 2.6rem  ;
+    color: var(--heading-color);
+    font-weight: 700;
+}
+h4{
+    font-size: 1.8rem;
+    color: var(--heading-color);
+    font-weight: 700;
+}
+p{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+/* Global style end */
+/* Header style start*/
+header{
+    background-color:var(--bg-color);
+    padding: 30px 0;
+}
+.header-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo h2{
+    font-size: 28px;
+    color: var(--heading-color);
+}
+
+nav ul{
+    display: flex;
+    gap:40px;
+    color: var(--text-color);
+    font-size: 16px;
+}
+/* Header style end */
+/* Hero section start */
+.hero{
+    padding: 60px 0;
+    background-color: var(--bg-color);
+}
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    
+}
